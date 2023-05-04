@@ -124,10 +124,10 @@ class MenuView(arcade.View):
         self.v_box = arcade.gui.UIBoxLayout()
 
         #Create title
-        menu_title = arcade.gui.UITextArea(text="A Title",
+        menu_title = arcade.gui.UITextArea(text="A Tutorial",
                                         width=100,
                                         height=40,
-                                        font_size=24)
+                                        font_size=16)
         self.v_box.add(menu_title.with_space_around(bottom=20))
 
         back_button = arcade.gui.UIFlatButton(text="Go Back", width=200)
